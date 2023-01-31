@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CdrNet.Data.Txt\CdrNet.Data.Txt.csproj" />
+    <ProjectReference Include="..\CdrNet.Infrastructer.Logging\CdrNet.Infrastructer.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
